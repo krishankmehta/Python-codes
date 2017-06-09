@@ -1,0 +1,20 @@
+//To find the square of the number
+//Author  :   Krishank S. Mehta
+//Date    :   6/8/2017
+//Time    :   8:56 PM
+
+
+
+
+def square_of_numbers((num1),(num2)):
+    d=dict()
+    for i in range(num1,num2):
+        d[i]=i*i
+    print d
+
+
+(num1)=raw_input("Enter the starting range ")
+(num2)=raw_input("Enter the ending range ")
+a=int(num1)
+b=int(num2)
+square_of_numbers(a,b)
