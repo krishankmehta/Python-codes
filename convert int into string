@@ -1,0 +1,11 @@
+//To convert int to string
+//Author: Krishank S. Mehta
+//Date: 6/8/2017
+//Time: 7:27PM
+
+
+def int_to_string(a):
+    print str(a)
+
+a=raw_input("Enter the number to be converted into string ")
+int_to_string(a)
