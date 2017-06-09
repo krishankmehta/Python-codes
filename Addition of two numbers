@@ -1,0 +1,16 @@
+//Addition of two numbers
+//Author: Krishank S. Mehta
+//Date: 6/8/2017
+//Time: 7:20 PM
+
+
+
+
+
+def sum_of_two(a,b):
+    c=int(a)+int(b)
+    print"The addition of {0} and {1} is {2}".format(a,b,c)
+
+a=(raw_input("enter both the 1st number:"))
+b=(raw_input("enter the second number: "))
+sum_of_two(a,b)
